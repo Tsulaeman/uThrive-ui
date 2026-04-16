@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import { getProducts } from './services/productsService'
+import { getProducts, type Product } from './services/productsService'
 import './App.css'
 
 function App() {
-  const [products, setProducts] = useState([])
+  const [products, setProducts] = useState<Product[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState('')
 
