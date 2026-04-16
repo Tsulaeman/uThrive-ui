@@ -1,12 +1,19 @@
 # uThrive UI Product List Exercise
 
-This repository contains a basic React + TypeScript scaffold for junior to mid-level frontend candidates.
+This repository contains a basic React + TypeScript scaffold for the uThrive test
 
 ## Included starter pieces
 
-- A frontend-only mock product service (`src/services/productsService.ts`)
 - A simple product list UI (`src/App.tsx`)
-- Tests for both the service and UI behavior (Vitest + React Testing Library)
+
+## Test Instructions
+- Create a dummy product list service (client only)
+- Display the product list
+- We should be able to click a product to read more
+- We should be able to delete a product
+- We should be able to archive and restore a product
+- Finally add a product to cart
+- Ensure there are comprehensive tests for the app
 
 ## Run locally
 
